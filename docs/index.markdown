@@ -6,7 +6,7 @@ layout: default
 ---
 [Home](john-p-ryan.github.io)   |
     [Research](john-p-ryan.github.io/research)  |
-    [CV](john-p-ryan.github.io/cv)
+    [CV](john-p-ryan.github.io/John-P-Ryan_CV.pdf)
 
 ## Welcome! 
 
@@ -20,3 +20,6 @@ Feel free to contact me by email at [john.p.ryan@wisc.edu](mailto:john.p.ryan@wi
 
 ## Posts
 
+[7/22/23: My first paper was published in the Journal of Statistical Research](https://www.banglajol.info/index.php/JStR/article/view/67466/45250)
+
+[6/23/23: I passed my prelims!](https://john-p-ryan.github.io/jekyll/update/2023/06/23/I-passed-my-prelims!)
