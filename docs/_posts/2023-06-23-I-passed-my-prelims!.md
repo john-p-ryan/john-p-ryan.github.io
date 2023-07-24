@@ -22,4 +22,4 @@ There has been a lot of anxiety leading up to this moment, but I have learned so
 Since I passed, I have about 2 months of time to rest, and work on a few projects, one of which has been building this website. 
 I plan on learning Julia, getting better at Git / Github, sketching out a research idea or two, polish my senior thesis, and maybe contribute to some other projects. 
 
-[back to home](https://john-p-ryan.github.io)
+[back to home](https://john-p-ryan.github.io/)
