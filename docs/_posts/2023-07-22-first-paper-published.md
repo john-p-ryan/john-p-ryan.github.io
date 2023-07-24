@@ -19,5 +19,5 @@ Because of the analytically complex nature of the Random Forest, much of the stu
 I thank Professors Chen and Withana Gamage for including me in this project and for their guidance throughout. 
 As this is my first publication and the first project for which I played a significant role, I learned a lot about machine learning, statistics, programming and the research process along the way. 
 
-[back to home](john-p-ryan.github.io)
+[back to home](https://john-p-ryan.github.io)
 
