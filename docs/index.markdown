@@ -4,3 +4,23 @@
 
 layout: default
 ---
+[Home](john-p-ryan.github.io)
+
+[About](john-p-ryan.github.io/about)
+
+[Publications](john-p-ryan.github.io/publications)
+
+[Projects](john-p-ryan.github.io/projects)
+
+## Welcome! 
+
+My name is John Ryan and I am a second year PhD student in economics at the University of Wisconsin - Madison, originally from Charleston, SC. 
+
+My interests lie in public finance, computational methods, and macroeconomics. My previous work includes open source modeling for [Inverse-Optimal Tax methods](https://github.com/PSLmodels/InverseOptimalTax/tree/main), and [reducing bias for machine learning estimators](https://www.banglajol.info/index.php/JStR/article/view/67466/45250). 
+
+Before starting my PhD, I completed my BS in Economics, Mathematics and Statistics at the University of South Carolina (the real USC). Go Gamecocks!
+
+Feel free to contact me by email at [john.p.ryan@wisc.edu](mailto:john.p.ryan@wisc.edu) if you have any questions.
+
+## Posts
+
