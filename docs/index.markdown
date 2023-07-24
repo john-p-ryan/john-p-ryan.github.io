@@ -6,7 +6,7 @@ layout: default
 ---
 [Home](john-p-ryan.github.io)   |
     [Research](john-p-ryan.github.io/research)  |
-    [CV](john-p-ryan.github.io/John-P-Ryan_CV.pdf)
+    [CV]([john-p-ryan.github.io/John-P-Ryan_CV.pdf](https://drive.google.com/file/d/1HiXjIFr4bM02ja0PfwkLBNtideTiE9hi/view?usp=sharing))
 
 ## Welcome! 
 
