@@ -22,8 +22,8 @@ title: John P. Ryan
 email: john.p.ryan@wisc.edu
 description: >- # this means to ignore newlines until "baseurl:"
   PhD student at the University of Wisconsin - Madison   
-
-  <a href="mailto:john.p.ryan@wisc.edu">Send Email</a>
+  <br>
+  <a href="mailto:john.p.ryan@wisc.edu">Email</a>
 logo: Headshot_2023.jpeg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
