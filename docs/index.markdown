@@ -4,13 +4,9 @@
 
 layout: default
 ---
-[Home](john-p-ryan.github.io)
-
-[About](john-p-ryan.github.io/about)
-
-[Publications](john-p-ryan.github.io/publications)
-
-[Projects](john-p-ryan.github.io/projects)
+[Home](john-p-ryan.github.io)   |
+    [Research](john-p-ryan.github.io/research)  |
+    [CV](john-p-ryan.github.io/cv)
 
 ## Welcome! 
 
