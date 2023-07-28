@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   PhD student at the University of Wisconsin - Madison   
   <br>
   <br>
-  <a href="mailto:john.p.ryan@wisc.edu">Email</a>
+  <a href="mailto:john.p.ryan@wisc.edu">Email me</a>
 logo: Headshot_2023.jpeg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

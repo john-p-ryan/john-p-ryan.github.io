@@ -8,7 +8,7 @@ permalink: /research/
 ---
 [Home](https://john-p-ryan.github.io)   |
     [**Research**](john-p-ryan.github.io/research)  |
-    [CV](https://drive.google.com/file/d/1HiXjIFr4bM02ja0PfwkLBNtideTiE9hi/view?usp=sharing)
+    [CV](https://john-p-ryan.github.io/Ryan_CV_jul23.pdf)
 
 ## Publications
 
