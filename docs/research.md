@@ -22,6 +22,9 @@ Published in Journal of Statistical Research
 Math Fest 2021, presenting author   
 [See slides](https://drive.google.com/file/d/1l_N-IQXZizEg0v_7TLgmmJkye2bsWx_E/view?usp=sharing)
 
+"Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals", 2022
+Discover USC 2022, poster session honorable mention
+
 
 ## Other projects
 "Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals", 2022   
