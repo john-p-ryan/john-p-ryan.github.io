@@ -1,0 +1,67 @@
+---
+output:
+  html_document:
+    df_print: paged
+permalink: /research/
+---
+
+```{r setup, echo = FALSE}
+library(knitr)
+```
+
+:::: {style="display: grid; grid-template-columns: 4fr 1fr 8fr 2fr; grid-column-gap: 20px"}
+
+::: {}
+
+```{r child ='leftside.Rmd'}
+```
+
+:::
+
+::: {}
+
+:::
+
+
+
+::: {}
+
+---
+
+#### [Home](john-p-ryan.github.io) | [**Research**](https://john-p-ryan.github.io/research/) | [CV](https://john-p-ryan.github.io/Ryan_CV_jul23.pdf)
+
+---
+
+### Publications
+
+["Debias Random Forest Regression Predictors"](https://www.researchgate.net/publication/372239538_Debias_random_forest_regression_predictors), 2023   
+With Lihua Chen and Prabhashi Withana Gamage   
+Published in Journal of Statistical Research
+
+---
+
+### Presentations
+"Debias Random Forest Regression Predictors", 2021   
+Math Fest 2021, presenting author   
+[See slides](https://drive.google.com/file/d/1l_N-IQXZizEg0v_7TLgmmJkye2bsWx_E/view?usp=sharing)
+
+
+"Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals", 2022  
+Discover USC 2022, poster session honorable mention
+
+---
+
+### Other projects
+"Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals", 2022   
+Senior thesis, with Jason DeBacker  
+Work in progress   
+[See repo](https://github.com/PSLmodels/InverseOptimalTax/tree/main)
+
+"Mathematical Foundations of Data Science, Optimal Transport", 2022   
+NSF REU project under Wuchen Li, UofSC Math   
+[See slides](https://drive.google.com/file/d/1d0LliYPvpbVtJaj47LBw7l_bA67IcCOh/view?usp=sharing)
+
+
+:::
+
+::::

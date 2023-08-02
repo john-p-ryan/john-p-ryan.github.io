@@ -1,0 +1,20 @@
+
+
+--- 
+
+## John P. Ryan
+
+
+```{r photo, echo = FALSE, out.width=240}
+include_graphics(path = "files/Headshot_2023.jpeg")
+```
+
+Economics PhD student at University of Wisconsin - Madison
+
+---
+
+[Email](mailto:john.p.ryan@wisc.edu)
+
+[GitHub](https://github.com/john-p-ryan)
+
+---
