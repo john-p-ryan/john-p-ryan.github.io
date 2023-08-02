@@ -8,7 +8,7 @@ output:
 library(knitr)
 ```
 
-:::: {style="display: grid; grid-template-columns: 2fr 5fr 1fr; grid-column-gap: 20px"}
+:::: {style="display: grid; grid-template-columns: 2fr 1fr 5fr 1fr; grid-column-gap: 20px"}
 
 ::: {}
 ---
@@ -32,6 +32,12 @@ library(knitr)
 ---
 
 :::
+
+
+::: {}
+
+:::
+
 
 ::: {}
 
