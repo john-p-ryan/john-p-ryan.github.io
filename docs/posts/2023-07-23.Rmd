@@ -17,9 +17,9 @@ library(knitr)
 
 ---
 
-[Home](john-p-ryan.github.io)
+[Home](https://john-p-ryan.github.io)
 
-[Research](https://john-p-ryan.github.io/research/)
+[Research](https://john-p-ryan.github.io/research.html)
 
 [CV](https://john-p-ryan.github.io/Ryan_CV_jul23.pdf)
 
