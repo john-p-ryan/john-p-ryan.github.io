@@ -8,7 +8,7 @@ output:
 library(knitr)
 ```
 
-:::: {style="display: grid; grid-template-columns: 2fr 5fr 1fr; grid-column-gap: 20px"}
+:::: {style="display: grid; grid-template-columns: 2fr 1fr 5fr 1fr; grid-column-gap: 20px"}
 
 ::: {}
 ---
@@ -17,9 +17,9 @@ library(knitr)
 
 ---
 
-[Home](john-p-ryan.github.io)
+[Home](https://john-p-ryan.github.io)
 
-[Research](https://john-p-ryan.github.io/research/)
+[Research](https://john-p-ryan.github.io/research.html)
 
 [CV](https://john-p-ryan.github.io/Ryan_CV_jul23.pdf)
 
@@ -32,6 +32,12 @@ library(knitr)
 ---
 
 :::
+
+
+::: {}
+
+:::
+
 
 ::: {}
 
