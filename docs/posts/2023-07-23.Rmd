@@ -21,6 +21,8 @@ library(knitr)
 
 [Research](https://john-p-ryan.github.io/research.html)
 
+[Teaching](https://john-p-ryan.github.io/teaching.html)
+
 [CV](https://john-p-ryan.github.io/files/CV.pdf)
 
 ---
