@@ -1,0 +1,67 @@
+---
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, echo = FALSE}
+library(knitr)
+```
+
+:::: {style="display: grid; grid-template-columns: 2fr 1fr 5fr 1fr; grid-column-gap: 20px"}
+
+::: {}
+---
+
+## John P. Ryan
+
+---
+
+[Home](https://john-p-ryan.github.io)
+
+[Research](https://john-p-ryan.github.io/research.html)
+
+[Teaching](https://john-p-ryan.github.io/teaching.html)
+
+[CV](https://john-p-ryan.github.io/files/CV.pdf)
+
+---
+
+[Email](mailto:john.p.ryan@wisc.edu)
+
+[GitHub](https://github.com/john-p-ryan)
+
+---
+
+:::
+
+
+::: {}
+
+:::
+
+
+::: {}
+
+---
+
+### Received a Juli Plant Granger Teaching Assistant Award
+*by John Ryan*   
+01 February 2024
+
+---
+
+I am delighted to announce that I have been awarded the Juli Plant Grainger Outstanding Teaching Assistant Award at the University of Wisconsin-Madison for my work as a TA for Intermediate Microeconomics (Econ 301). This award recognizes the effort and passion I have put into my role, which included teaching discussion sections, holding office hours, conducting review sessions, grading assignments, and proctoring exams.
+
+Throughout the semester, I strove to create an engaging and supportive learning environment for my students. I am grateful for their dedication and engagement, which made my experience as a TA much more rewarding. Their willingness to learn inspired me to give my best and to continually improve my teaching skills.
+
+I would like to express my gratitude to my students, fellow TAs, and the faculty members. This award not only acknowledges my efforts but also motivates me to continue pursuing excellence in teaching and mentoring students.
+
+
+
+
+[back to home](https://john-p-ryan.github.io/)
+
+:::
+
+::::

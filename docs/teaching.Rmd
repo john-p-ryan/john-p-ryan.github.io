@@ -1,0 +1,124 @@
+---
+output:
+  html_document:
+    df_print: paged
+permalink: /teaching/
+---
+
+```{r setup, echo = FALSE}
+library(knitr)
+```
+
+:::: {style="display: grid; grid-template-columns: 4fr 1fr 8fr 2fr; grid-column-gap: 20px"}
+
+::: {}
+
+```{r child ='leftside.Rmd'}
+```
+
+:::
+
+::: {}
+
+:::
+
+
+
+::: {}
+
+---
+
+#### [Home](https://john-p-ryan.github.io/) | [Research](https://john-p-ryan.github.io/research.html) | [**Teaching**](https://john-p-ryan.github.io/teaching.html) | [CV](https://john-p-ryan.github.io/files/CV.pdf)
+
+---
+
+### Econ 702 - Spring 2024
+
+Professor Rishabh Kirpalani
+
+#### Discussion Materials:
+
+[Handout 1](https://john-p-ryan.github.io/files/Econ702/702_Handout1.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout1_Solution.pdf))
+
+[Handout 2](https://john-p-ryan.github.io/files/Econ702/702_Handout2.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout2_Solution.pdf))
+
+[Handout 3](https://john-p-ryan.github.io/files/Econ702/702_Handout3.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout3_Solution.pdf))
+
+[Handout 4](https://john-p-ryan.github.io/files/Econ702/702_Handout4.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout4_Solution.pdf))
+
+[Handout 6](https://john-p-ryan.github.io/files/Econ702/702_Handout6.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout6_Solution.pdf))
+
+[Handout 7](https://john-p-ryan.github.io/files/Econ702/702_Handout7.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout7_Solution.pdf))
+
+[Handout 8](https://john-p-ryan.github.io/files/Econ702/702_Handout8.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout8_Solution.pdf))
+
+[Handout 10](https://john-p-ryan.github.io/files/Econ702/702_Handout10.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout10_Solution.pdf))
+
+[Handout 11](https://john-p-ryan.github.io/files/Econ702/702_Handout11.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout11_Solution.pdf))
+
+[Handout 12](https://john-p-ryan.github.io/files/Econ702/702_Handout12.pdf)  | 
+[Solution]((https://john-p-ryan.github.io/files/Econ702/702_Handout12_Solution.pdf))
+
+See Canvas for exam and homework materials.
+
+---
+
+### Econ 301 - Fall 2023
+
+Dr. Fran Flanagan
+
+#### Discussion materials:
+
+[Handout 9-15-23](https://john-p-ryan.github.io/files/Econ301/301handout_9-15.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/9-15.pdf)
+
+[Handout 9-22-23](https://john-p-ryan.github.io/files/Econ301/301handout_9-22.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/9-22.pdf)
+
+[Handout 9-29-23](https://john-p-ryan.github.io/files/Econ301/301handout_9-29.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/9-29.pdf)
+
+[Handout 10-13-23](https://john-p-ryan.github.io/files/Econ301/301handout_10-13.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/10-13.pdf)
+
+[Handout 10-20-23](https://john-p-ryan.github.io/files/Econ301/301handout_10-20.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/10-20.pdf)
+
+[Handout 10-27-23](https://john-p-ryan.github.io/files/Econ301/301handout_10-27.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/10-27.pdf)
+
+[Handout 11-3-23](https://john-p-ryan.github.io/files/Econ301/301handout_11-3.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/11-3.pdf)
+
+[Handout 11-10-23](https://john-p-ryan.github.io/files/Econ301/301handout_11-10.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/11-10.pdf)
+
+[Handout 12-1-23](https://john-p-ryan.github.io/files/Econ301/301handout_12-1.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/12-1.pdf)
+
+[Handout 12-8-23](https://john-p-ryan.github.io/files/Econ301/301handout_12-8.pdf) | 
+[Solution](https://john-p-ryan.github.io/files/Econ301/12-8.pdf)
+
+See Canvas for exam and homework materials.
+
+---
+
+### Econ 101 - Fall 2022
+
+Dr. Greg Pac
+
+See Canvas for teaching materials
+
+
+:::
+
+::::
