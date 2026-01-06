@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub\n\n\n\n\n\n\nMy name is John Ryan and I am a third year PhD student in economics at the University of Wisconsin - Madison, originally from Charleston, SC.\nMy interests lie in public finance, computational methods, and macroeconomics. My previous work includes open source modeling for Inverse-Optimal Tax methods, and reducing bias for machine learning estimators.\nBefore starting my PhD, I completed my BS in Economics, Mathematics and Statistics at the University of South Carolina (the real USC). Go Gamecocks!\nFeel free to contact me by email at john.p.ryan@wisc.edu if you have any questions.\n\n\n\n\n\n2/1/24: Received a Juli Plant Granger Teaching Assistant Award\n7/23/23: My first paper was published in the Journal of Statistical Research\n6/22/23: I passed my prelims!"
+  },
+  {
+    "objectID": "index.html#john-p.-ryan",
+    "href": "index.html#john-p.-ryan",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub"
+  },
+  {
+    "objectID": "posts/2023-06-22.html",
+    "href": "posts/2023-06-22.html",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub\n\n\n\n\n\n\n\nby John Ryan\n22 June 2023\n\n\n“It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way” - Charles Dickens, A Tale of Two Cities\n\nThis quote encapsulates my experience during my first year in the econ PhD at UW-Madison. It was a tough journey, but it has all paid off. That is because I passed my preliminary exams! There has been a lot of anxiety leading up to this moment, but I have learned so much in the past year.\nSince I passed, I have about 2 months of time to rest, and work on a few projects, one of which has been building this website. I plan on learning Julia, getting better at Git / Github, sketching out a research idea or two, polish my senior thesis, and maybe contribute to some other projects.\nback to home"
+  },
+  {
+    "objectID": "posts/2023-06-22.html#john-p.-ryan",
+    "href": "posts/2023-06-22.html#john-p.-ryan",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub"
+  },
+  {
+    "objectID": "posts/2023-07-23.html",
+    "href": "posts/2023-07-23.html",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub\n\n\n\n\n\n\n\nby John Ryan\n23 July 2023\n\nThe paper titled “Debias Random Forest Regression Predictors” with Professors Lihua Chen and Prabhashi Withana Gamage, was accepted and published in the Journal of Statistical Research.\nThe abstract is as follows:\n\nThe random forest can reduce the variance of regression predictors through bagging while leaving the bias mostly unchanged. In general, the bias is not negligible and consequently bias correction is necessary. The default bias correction method implemented in the R package randomForest often works poorly. Several approaches have been developed which in general outperform the R default. However, little work has been done to com- prehensively evaluate the performance of these methods and thus guide users to select an appropriate method for bias correction. This paper fills this gap by providing an informative ranking of these bias correction methods based on an extensive numerical study. We further offered practical suggestions on the application of the winner of these methods and suggested a visualization technique to help users decide when bias correction is needed.\n\nThe goal was to test, review and categorize the different bias reduction methods for the popular machine learning estimator, Random Forest. This is pertinent to the omnipresent bias-variance tradeoff in machine learning and statistics. We aimed to improve usage of this already powerful estimator and provide user guidance for choosing a method.\nThis paper spawned from my participation in an NSF funded Research Experiences for Undergraduates program, headed by Professors Chen and Withana Gamage. Because of the analytically complex nature of the Random Forest, much of the study consisted of implementing different methods and performing countless Monte-Carlo simulations in R. I thank Professors Chen and Withana Gamage for including me in this project and for their guidance throughout. As this is my first publication and the first project for which I played a significant role, I learned a lot about machine learning, statistics, programming and the research process along the way.\nback to home"
+  },
+  {
+    "objectID": "posts/2023-07-23.html#john-p.-ryan",
+    "href": "posts/2023-07-23.html#john-p.-ryan",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub\n\n\n\n\n\n\nProfessor Rishabh Kirpalani\n\n\n\n\n\nHandout\nSolution\n\n\n\n\nHandout 1\nSolution\n\n\nHandout 2\nSolution\n\n\nHandout 3\nSolution\n\n\nHandout 4\nSolution\n\n\nHandout 6\nSolution\n\n\nHandout 7\nSolution\n\n\nHandout 8\nSolution\n\n\nHandout 10\nSolution\n\n\nHandout 11\nSolution\n\n\nHandout 12\nSolution\n\n\n\nSee Canvas for exam and homework materials.\n\n\n\n\n\nDr. Fran Flanagan\n\n\n\n\n\nHandout\nSolution\n\n\n\n\nHandout 9-15-23\nSolution\n\n\nHandout 9-22-23\nSolution\n\n\nHandout 9-29-23\nSolution\n\n\nHandout 10-13-23\nSolution\n\n\nHandout 10-20-23\nSolution\n\n\nHandout 10-27-23\nSolution\n\n\nHandout 11-3-23\nSolution\n\n\nHandout 11-10-23\nSolution\n\n\nHandout 12-1-23\nSolution\n\n\nHandout 12-8-23\nSolution\n\n\n\nSee Canvas for exam and homework materials.\n\n\n\n\n\nDr. Greg Pac\nSee Canvas for teaching materials."
+  },
+  {
+    "objectID": "teaching.html#john-p.-ryan",
+    "href": "teaching.html#john-p.-ryan",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub\n\n\n\n\n\n\n“Debias Random Forest Regression Predictors”, 2023\nWith Lihua Chen and Prabhashi Withana Gamage\nPublished in Journal of Statistical Research\n\n\n\n\n“Debias Random Forest Regression Predictors”, 2021\nMath Fest 2021, presenting author\nSee slides\n“Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals”, 2022\nDiscover USC 2022, poster session honorable mention\n\n\n\n\n“Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals”, 2022\nwith Jason DeBacker (Work in progress)\nSee repo\n“Mathematical Foundations of Data Science, Optimal Transport”, 2022\nNSF REU project under Wuchen Li, UofSC Math\nSee slides"
+  },
+  {
+    "objectID": "research.html#john-p.-ryan",
+    "href": "research.html#john-p.-ryan",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub"
+  },
+  {
+    "objectID": "posts/2024-02-01.html",
+    "href": "posts/2024-02-01.html",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub\n\n\n\n\n\n\n\nby John Ryan\n01 February 2024\n\nI am delighted to announce that I have been awarded the Juli Plant Grainger Outstanding Teaching Assistant Award at the University of Wisconsin-Madison for my work as a TA for Intermediate Microeconomics (Econ 301). This award recognizes the effort and passion I have put into my role, which included teaching discussion sections, holding office hours, conducting review sessions, grading assignments, and proctoring exams.\nThroughout the semester, I strove to create an engaging and supportive learning environment for my students. I am grateful for their dedication and engagement, which made my experience as a TA much more rewarding. Their willingness to learn inspired me to give my best and to continually improve my teaching skills.\nI would like to express my gratitude to my students, fellow TAs, and the faculty members. This award not only acknowledges my efforts but also motivates me to continue pursuing excellence in teaching and mentoring students.\nback to home"
+  },
+  {
+    "objectID": "posts/2024-02-01.html#john-p.-ryan",
+    "href": "posts/2024-02-01.html#john-p.-ryan",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Economics PhD student at University of Wisconsin - Madison\n\nEmail\nGitHub"
+  }
+]
