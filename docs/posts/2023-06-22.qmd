@@ -8,7 +8,8 @@ title: ""
 {{< include ../_profile.qmd >}}
 :::
 
-::: {.g-col-12 .g-col-sm-8}
+::: {.g-col-12 .g-col-sm-7 .g-start-sm-6}
+
 
 ---
 

@@ -17,6 +17,5 @@ website:
 
 format:
   html:
-    theme: cosmo # "minimal", "litera", or "journal"
-    css: styles.css
+    theme: cosmo # "cosmo", minimal", "litera", or "journal"
     toc: false
