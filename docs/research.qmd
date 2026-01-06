@@ -16,7 +16,6 @@ title: ""
 With Lihua Chen and Prabhashi Withana Gamage   
 *Published in Journal of Statistical Research*
 
----
 
 ## Presentations
 
@@ -27,7 +26,6 @@ Math Fest 2021, presenting author
 **"Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals"**, 2022  
 Discover USC 2022, poster session honorable mention
 
----
 
 ## Other projects
 

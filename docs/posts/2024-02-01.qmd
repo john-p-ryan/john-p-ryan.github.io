@@ -2,21 +2,13 @@
 title: "Receieved a Juli Plant Granger Teaching Assistant Award"
 author: "John Ryan"
 date: "2024-02-01"
+format:
+  html:
+    page-layout: article 
+    grid:
+      body-width: 600px
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-sm-4}
-{{< include ../_profile.qmd >}}
-:::
-
-::: {.g-col-12 .g-col-sm-7 .g-start-sm-6}
-
----
-
-### Received a Juli Plant Granger Teaching Assistant Award
-*by John Ryan*   
-01 February 2024
 
 ---
 
@@ -30,7 +22,3 @@ I would like to express my gratitude to my students, fellow TAs, and the faculty
 
 
 [back to home](https://john-p-ryan.github.io/)
-
-:::
-
-:::

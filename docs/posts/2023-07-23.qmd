@@ -2,21 +2,13 @@
 title: "My first paper was published"
 author: "John Ryan"
 date: "2023-07-23"
+format:
+  html:
+    page-layout: article 
+    grid:
+      body-width: 600px
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-sm-4}
-{{< include ../_profile.qmd >}}
-:::
-
-::: {.g-col-12 .g-col-sm-7 .g-start-sm-6}
-
----
-
-### My first paper was published in the Journal of Statistical Research   
-*by John Ryan*   
-23 July 2023
 
 ---
 
@@ -37,6 +29,3 @@ As this is my first publication and the first project for which I played a signi
 
 [back to home](https://john-p-ryan.github.io/)
 
-:::
-
-:::

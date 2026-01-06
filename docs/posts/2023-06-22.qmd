@@ -2,22 +2,13 @@
 title: "I passed my prelims!"
 author: "John Ryan"
 date: "2023-06-22"
+format:
+  html:
+    page-layout: article 
+    grid:
+      body-width: 600px
 ---
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-sm-4}
-{{< include ../_profile.qmd >}}
-:::
-
-::: {.g-col-12 .g-col-sm-7 .g-start-sm-6}
-
-
----
-
-### I passed my prelims!   
-*by John Ryan*   
-22 June 2023
 
 ---
 
@@ -33,7 +24,3 @@ Since I passed, I have about 2 months of time to rest, and work on a few project
 I plan on learning Julia, getting better at Git / Github, sketching out a research idea or two, polish my senior thesis, and maybe contribute to some other projects. 
 
 [back to home](https://john-p-ryan.github.io/)
-
-:::
-
-:::
