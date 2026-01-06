@@ -1,5 +1,7 @@
 ---
-title: ""
+title: "My first paper was published"
+author: "John Ryan"
+date: "2023-07-23"
 ---
 
 ::: {.grid}
