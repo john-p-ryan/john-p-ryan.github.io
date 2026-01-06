@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: "John P. Ryan"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: CV
+        href: files/CV.pdf
+
+format:
+  html:
+    theme: cosmo # "cosmo", minimal", "litera", or "journal"
+    toc: false
