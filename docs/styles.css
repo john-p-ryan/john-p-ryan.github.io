@@ -1,0 +1,16 @@
+.listing-date {
+  white-space: nowrap !important;
+  min-width: 100px;
+}
+
+.main-content {
+  border-left: 1px solid #dee2e6;
+  padding-left: 2rem;
+}
+
+@media (max-width: 575px) {
+  .main-content {
+    border-left: none;
+    padding-left: 0;
+  }
+}

@@ -11,22 +11,14 @@ listing:
   fields: [date, title]
   date-format: "MM-DD-YYYY"
 ---
-```{=html}
-<style>
-  /* Force the date column to not wrap text */
-  .listing-date {
-    white-space: nowrap !important;
-    min-width: 100px; /* Optional: ensures a minimum width */
-  }
-</style>
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-sm-3}
+::: {.g-col-12 .g-col-sm-4}
 {{< include _profile.qmd >}}
 :::
 
-::: {.g-col-12 .g-col-sm-8 .g-start-sm-5}
+::: {.g-col-12 .g-col-sm-8 .g-start-sm-5 .main-content}
 
 
 ### Welcome!

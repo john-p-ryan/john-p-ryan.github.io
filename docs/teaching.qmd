@@ -8,7 +8,7 @@ title: ""
 {{< include _profile.qmd >}}
 :::
 
-::: {.g-col-12 .g-col-sm-7 .g-start-sm-6}
+::: {.g-col-12 .g-col-sm-8 .g-start-sm-5 .main-content}
 
 ## Econ 702 - Spring 2024
 **Professor Rishabh Kirpalani**

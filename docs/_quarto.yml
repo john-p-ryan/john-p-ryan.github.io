@@ -19,3 +19,4 @@ format:
   html:
     theme: cosmo # "cosmo", minimal", "litera", or "journal"
     toc: false
+    css: styles.css
