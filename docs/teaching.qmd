@@ -10,7 +10,8 @@ title: ""
 
 ::: {.g-col-12 .g-col-sm-8 .g-start-sm-5 .main-content}
 
-## Econ 880 - PhD Computational Economics - Fall 2024, Fall 2025
+## PhD Computational Economics
+#### Econ 880 - Fall 2024, Fall 2025
 **Guest lecturer, grader for Professor Dean Corbae**
 
 #### Materials:
@@ -22,7 +23,8 @@ title: ""
 
 
 
-## Econ 702 - Masters Macroeconomics - Spring 2024
+## Masters Macroeconomics 
+#### Econ 702 - Spring 2024
 **TA for Professor Rishabh Kirpalani**
 
 #### Discussion Materials:
@@ -43,7 +45,8 @@ title: ""
 
 ---
 
-## Econ 301 - Intermediate Microeconomics - Fall 2023
+## Intermediate Microeconomics
+#### Econ 301 - Fall 2023
 **TA for Dr. Fran Flanagan**
 
 #### Discussion materials:
@@ -64,7 +67,8 @@ title: ""
 
 ---
 
-## Econ 101 - Introduction to Economics - Fall 2022
+## Introduction to Economics
+#### Econ 101 - Fall 2022
 **TA for Dr. Greg Pac**
 
 See Canvas for teaching materials.
