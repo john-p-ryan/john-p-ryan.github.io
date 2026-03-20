@@ -10,8 +10,20 @@ title: ""
 
 ::: {.g-col-12 .g-col-sm-8 .g-start-sm-5 .main-content}
 
-## Econ 702 - Spring 2024
-**Professor Rishabh Kirpalani**
+## Econ 880 - PhD Computational Economics - Fall 2024, Fall 2025
+**Guest lecturer, grader for Professor Dean Corbae**
+
+#### Materials:
+| Topic | Slides | Code |
+| :--- | :--- | :--- |
+| Parallelization in Julia | [Slides](https://john-p-ryan.github.io/files/Econ880/parallelization.pdf) | [Code](https://john-p-ryan.github.io/files/Econ880/parallel_codealong.jl) |
+| Algorithms for HA Models | [Slides](https://john-p-ryan.github.io/files/Econ880/HH_methods_slides.pdf) | [Code](https://github.com/john-p-ryan/QuantMacro) |
+| Algorithms for HA with Aggregate Uncertainty | [Slides](https://john-p-ryan.github.io/files/Econ880/Agg_comparison.pdf) | [Code](https://github.com/john-p-ryan/QuantMacro) |
+
+
+
+## Econ 702 - Masters Macroeconomics - Spring 2024
+**TA for Professor Rishabh Kirpalani**
 
 #### Discussion Materials:
 | Handout | Solution |
@@ -31,8 +43,8 @@ title: ""
 
 ---
 
-## Econ 301 - Fall 2023
-**Dr. Fran Flanagan**
+## Econ 301 - Intermediate Microeconomics - Fall 2023
+**TA for Dr. Fran Flanagan**
 
 #### Discussion materials:
 | Handout | Solution |
@@ -52,8 +64,8 @@ title: ""
 
 ---
 
-## Econ 101 - Fall 2022
-**Dr. Greg Pac**
+## Econ 101 - Introduction to Economics - Fall 2022
+**TA for Dr. Greg Pac**
 
 See Canvas for teaching materials.
 
