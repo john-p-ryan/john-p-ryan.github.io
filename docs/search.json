@@ -14,8 +14,8 @@
     "text": "I am a fifth-year PhD student in economics at the University of Wisconsin–Madison, originally from Charleston, SC. I work on public finance, computational methods, and macroeconomics.\n\nMy current research studies the taxation of capital and bequests, high-skill immigration, and flood insurance. Earlier work includes open-source modeling for inverse-optimal tax methods and reducing bias in machine-learning estimators.\nBefore my PhD, I completed a BS in Economics, Mathematics, and Statistics at the University of South Carolina (the real USC). Go Gamecocks!\nQuestions? Email me at john.p.ryan@wisc.edu."
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
+    "objectID": "index.html#posts",
+    "href": "index.html#posts",
     "title": "John P. Ryan",
     "section": "",
     "text": "Date\n\n\n\nTitle\n\n\n\n\n\n\n\n\nFeb 1, 2024\n\n\nReceived the Juli Plant Grainger Teaching Assistant Award\n\n\n\n\n\n\nJul 23, 2023\n\n\nMy first paper was published\n\n\n\n\n\n\nJun 22, 2023\n\n\nI passed my prelims!\n\n\n\n\n\n\nNo matching items"
@@ -47,6 +47,13 @@
     "title": "John P. Ryan",
     "section": "",
     "text": "Inferring the Political Weights of Presidential Candidates from Their Tax Policy Proposals\n\n\nwith Jason DeBacker\n\n\nPresented at Discover USC 2022 — poster session honorable mention\n\n\nDraft Code"
+  },
+  {
+    "objectID": "research.html#policy-papers",
+    "href": "research.html#policy-papers",
+    "title": "John P. Ryan",
+    "section": "",
+    "text": "Zoning Regulations, Housing Affordability, and Lifecycle Inequality\n\n\nCROWE Graduate Scholar Series #3\n\n\nPaper"
   },
   {
     "objectID": "research.html#work-in-progress",
@@ -103,19 +110,5 @@
     "title": "I passed my prelims!",
     "section": "",
     "text": "“It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way” - Charles Dickens, A Tale of Two Cities\n\nThis quote encapsulates my experience during my first year in the econ PhD at UW-Madison. It was a tough journey, but it has all paid off. That is because I passed my preliminary exams! There has been a lot of anxiety leading up to this moment, but I have learned so much in the past year.\nSince I passed, I have about 2 months of time to rest, and work on a few projects, one of which has been building this website. I plan on learning Julia, getting better at Git / Github, sketching out a research idea or two, polish my senior thesis, and maybe contribute to some other projects.\n\n← Back to home"
-  },
-  {
-    "objectID": "index.html#posts",
-    "href": "index.html#posts",
-    "title": "John P. Ryan",
-    "section": "",
-    "text": "Date\n\n\n\nTitle\n\n\n\n\n\n\n\n\nFeb 1, 2024\n\n\nReceived the Juli Plant Grainger Teaching Assistant Award\n\n\n\n\n\n\nJul 23, 2023\n\n\nMy first paper was published\n\n\n\n\n\n\nJun 22, 2023\n\n\nI passed my prelims!\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research.html#policy-papers",
-    "href": "research.html#policy-papers",
-    "title": "John P. Ryan",
-    "section": "",
-    "text": "Zoning Regulations, Housing Affordability, and Lifecycle Inequality\n\n\nCROWE Graduate Scholar Series #3\n\n\nPaper"
   }
 ]
