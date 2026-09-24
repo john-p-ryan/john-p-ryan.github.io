@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>research – John P. Ryan</title>
+<title>Research – John P. Ryan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./files/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -37,10 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fb1534315b2f2651b691bbd0c74aea61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-fdf6eac51aab109b60547f1f19ddfeb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-fb1534315b2f2651b691bbd0c74aea61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,10 +75,184 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Research">
+<meta property="og:image" content="./files/headshot_square.jpg">
+<meta property="og:site_name" content="John P. Ryan">
+<meta property="og:image:alt" content="Headshot of John P. Ryan">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,7 +263,6 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">John P. Ryan</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -107,8 +285,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/john-p-ryan"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:john.p.ryan@wisc.edu"> <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -124,40 +315,116 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <div class="grid">
-<div class="g-col-12 g-col-sm-4">
-<p><img src="./files/Headshot_2023.jpeg" class="img-fluid" width="240"></p>
-<section id="john-p.-ryan" class="level2">
-<h2 class="anchored" data-anchor-id="john-p.-ryan">John P. Ryan</h2>
-<p>Economics PhD student at University of Wisconsin - Madison</p>
-<p><a href="mailto:john.p.ryan@wisc.edu">Email</a></p>
-<p><a href="https://github.com/john-p-ryan">GitHub</a></p>
-<hr>
-</section>
+<div class="g-col-12 g-col-md-4 sidebar-col">
+<div class="profile">
+<p><img src="./files/headshot_square.jpg" class="headshot" alt="Headshot of John P. Ryan"></p>
+<p class="profile-name">
+John P. Ryan
+</p>
+<p class="profile-role">
+PhD Candidate in Economics<br>University of Wisconsin–Madison
+</p>
+<ul class="profile-links">
+<li>
+<a href="mailto:john.p.ryan@wisc.edu"><i class="bi bi-envelope"></i>john.p.ryan@wisc.edu</a>
+</li>
+<li>
+<a href="https://github.com/john-p-ryan"><i class="bi bi-github"></i>john-p-ryan</a>
+</li>
+<li>
+<a href="./files/CV.pdf"><i class="bi bi-file-earmark-text"></i>Curriculum vitae</a>
+</li>
+</ul>
 </div>
-<div class="g-col-12 g-col-sm-8 g-start-sm-5 main-content">
+</div>
+<div class="g-col-12 g-col-md-8 main-content">
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<p><strong><a href="https://www.researchgate.net/publication/372239538_Debias_random_forest_regression_predictors">“Debias Random Forest Regression Predictors”</a></strong>, 2023<br>
-With Lihua Chen and Prabhashi Withana Gamage<br>
-<em>Published in Journal of Statistical Research</em></p>
+<div class="paper">
+<p class="paper-title">
+<a href="https://www.researchgate.net/publication/372239538_Debias_random_forest_regression_predictors">Debias Random Forest Regression Predictors</a>
+</p>
+<p class="paper-meta">
+with Lihua Chen and Prabhashi Withana Gamage
+</p>
+<p class="paper-meta">
+<em>Journal of Statistical Research</em>, 2023
+</p>
+<p class="paper-note">
+Presented at MathFest 2021 (presenting author)
+</p>
+<div class="paper-links">
+<p><a href="https://www.researchgate.net/publication/372239538_Debias_random_forest_regression_predictors">Paper</a> <a href="https://drive.google.com/file/d/1l_N-IQXZizEg0v_7TLgmmJkye2bsWx_E/view?usp=sharing">Slides</a></p>
+</div>
+</div>
 </section>
-<section id="presentations" class="level2">
-<h2 class="anchored" data-anchor-id="presentations">Presentations</h2>
-<p><strong>“Debias Random Forest Regression Predictors”</strong>, 2021<br>
-Math Fest 2021, presenting author<br>
-<a href="https://drive.google.com/file/d/1l_N-IQXZizEg0v_7TLgmmJkye2bsWx_E/view?usp=sharing">See slides</a></p>
-<p><strong>“Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals”</strong>, 2022<br>
-Discover USC 2022, poster session honorable mention</p>
+<section id="working-papers" class="level2">
+<h2 class="anchored" data-anchor-id="working-papers">Working papers</h2>
+<div class="paper">
+<p class="paper-title">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7187758">Inferring the Political Weights of Presidential Candidates from Their Tax Policy Proposals</a>
+</p>
+<p class="paper-meta">
+with Jason DeBacker
+</p>
+<p class="paper-note">
+Presented at Discover USC 2022 — poster session honorable mention
+</p>
+<div class="paper-links">
+<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7187758">Draft</a> <a href="https://github.com/PSLmodels/InverseOptimalTax/tree/main">Code</a></p>
+</div>
+</div>
+</section>
+<section id="policy-papers" class="level2">
+<h2 class="anchored" data-anchor-id="policy-papers">Policy papers</h2>
+<div class="paper">
+<p class="paper-title">
+<a href="https://crowe.wisc.edu/wp-content/uploads/sites/633/2026/07/mainRyan.pdf">Zoning Regulations, Housing Affordability, and Lifecycle Inequality</a>
+</p>
+<p class="paper-meta">
+<em>CROWE Graduate Scholar Series</em> #3
+</p>
+<div class="paper-links">
+<p><a href="https://crowe.wisc.edu/wp-content/uploads/sites/633/2026/07/mainRyan.pdf">Paper</a></p>
+</div>
+</div>
+</section>
+<section id="work-in-progress" class="level2">
+<h2 class="anchored" data-anchor-id="work-in-progress">Work in progress</h2>
+<div class="paper in-progress">
+<p class="paper-title">
+The Costs of High-Skill International Labor in the United States
+</p>
+<p class="paper-meta">
+with Rob Remuszka and Famy Xia
+</p>
+</div>
+<div class="paper in-progress">
+<p class="paper-title">
+Taxing Capital Gains at Death: The Economics of Stepped-Up Basis
+</p>
+</div>
+<div class="paper in-progress">
+<p class="paper-title">
+Child Heterogeneity and Optimal Estate-Tax Progressivity
+</p>
+</div>
 </section>
 <section id="other-projects" class="level2">
 <h2 class="anchored" data-anchor-id="other-projects">Other projects</h2>
-<p><strong>“Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals”</strong>, 2022<br>
-with Jason DeBacker (Work in progress)<br>
-<a href="https://github.com/PSLmodels/InverseOptimalTax/tree/main">See repo</a></p>
-<p><strong>“Mathematical Foundations of Data Science, Optimal Transport”</strong>, 2022<br>
-NSF REU project under Wuchen Li, UofSC Math<br>
-<a href="https://drive.google.com/file/d/1d0LliYPvpbVtJaj47LBw7l_bA67IcCOh/view?usp=sharing">See slides</a></p>
+<div class="paper in-progress">
+<p class="paper-title">
+Mathematical Foundations of Data Science: Optimal Transport
+</p>
+<p class="paper-meta">
+NSF REU project under Wuchen Li, University of South Carolina Mathematics
+</p>
+<div class="paper-links">
+<p><a href="https://drive.google.com/file/d/1d0LliYPvpbVtJaj47LBw7l_bA67IcCOh/view?usp=sharing">Slides</a></p>
+</div>
+</div>
 </section>
 </div>
 </div>
@@ -167,6 +434,19 @@ NSF REU project under Wuchen Li, UofSC Math<br>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -252,6 +532,11 @@ NSF REU project under Wuchen Li, UofSC Math<br>
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

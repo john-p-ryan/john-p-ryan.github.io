@@ -1,15 +1,7 @@
 ---
-title: "Receieved a Juli Plant Granger Teaching Assistant Award"
+title: "Received the Juli Plant Grainger Teaching Assistant Award"
 author: "John Ryan"
 date: "2024-02-01"
-format:
-  html:
-    page-layout: article 
-    grid:
-      body-width: 600px
----
-
-
 ---
 
 I am delighted to announce that I have been awarded the Juli Plant Grainger Outstanding Teaching Assistant Award at the University of Wisconsin-Madison for my work as a TA for Intermediate Microeconomics (Econ 301). This award recognizes the effort and passion I have put into my role, which included teaching discussion sections, holding office hours, conducting review sessions, grading assignments, and proctoring exams.
@@ -21,4 +13,6 @@ I would like to express my gratitude to my students, fellow TAs, and the faculty
 
 
 
-[back to home](https://john-p-ryan.github.io/)
+::: {.post-nav}
+[← Back to home](/index.qmd)
+:::

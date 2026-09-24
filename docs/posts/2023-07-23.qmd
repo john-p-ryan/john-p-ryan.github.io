@@ -2,14 +2,6 @@
 title: "My first paper was published"
 author: "John Ryan"
 date: "2023-07-23"
-format:
-  html:
-    page-layout: article 
-    grid:
-      body-width: 600px
----
-
-
 ---
 
 The paper titled ["Debias Random Forest Regression Predictors"](https://www.researchgate.net/publication/372239538_Debias_random_forest_regression_predictors) with Professors Lihua Chen and Prabhashi Withana Gamage, was accepted and published in the Journal of Statistical Research. 
@@ -27,5 +19,6 @@ Because of the analytically complex nature of the Random Forest, much of the stu
 I thank Professors Chen and Withana Gamage for including me in this project and for their guidance throughout. 
 As this is my first publication and the first project for which I played a significant role, I learned a lot about machine learning, statistics, programming and the research process along the way. 
 
-[back to home](https://john-p-ryan.github.io/)
-
+::: {.post-nav}
+[← Back to home](/index.qmd)
+:::

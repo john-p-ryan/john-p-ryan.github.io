@@ -4,7 +4,12 @@ project:
 
 website:
   title: "John P. Ryan"
+  description: "John P. Ryan — Economics PhD student at the University of Wisconsin–Madison. Public finance, computational methods, and macroeconomics."
+  favicon: files/favicon.svg
+  open-graph: true
   navbar:
+    pinned: false
+    search: false
     left:
       - text: Home
         href: index.qmd
@@ -14,9 +19,23 @@ website:
         href: teaching.qmd
       - text: CV
         href: files/CV.pdf
+    right:
+      - icon: github
+        href: https://github.com/john-p-ryan
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:john.p.ryan@wisc.edu
+        aria-label: Email
 
 format:
   html:
-    theme: cosmo # "cosmo", minimal", "litera", or "journal"
+    theme:
+      light: [cosmo, custom.scss]
+      dark: [cosmo, custom.scss, dark.scss]
+    respect-user-color-scheme: true
     toc: false
-    css: styles.css
+    link-external-newwindow: true
+    grid:
+      body-width: 1000px
+      margin-width: 150px
+      sidebar-width: 150px

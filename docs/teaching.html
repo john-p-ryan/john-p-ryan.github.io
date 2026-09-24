@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>teaching – John P. Ryan</title>
+<title>Teaching – John P. Ryan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./files/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -37,10 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fb1534315b2f2651b691bbd0c74aea61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-fdf6eac51aab109b60547f1f19ddfeb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-fb1534315b2f2651b691bbd0c74aea61.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,10 +75,184 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Teaching">
+<meta property="og:image" content="./files/headshot_square.jpg">
+<meta property="og:site_name" content="John P. Ryan">
+<meta property="og:image:alt" content="Headshot of John P. Ryan">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,7 +263,6 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">John P. Ryan</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -107,8 +285,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/john-p-ryan"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:john.p.ryan@wisc.edu"> <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -124,26 +315,56 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <div class="grid">
-<div class="g-col-12 g-col-sm-4">
-<p><img src="./files/Headshot_2023.jpeg" class="img-fluid" width="240"></p>
-<section id="john-p.-ryan" class="level2">
-<h2 class="anchored" data-anchor-id="john-p.-ryan">John P. Ryan</h2>
-<p>Economics PhD student at University of Wisconsin - Madison</p>
-<p><a href="mailto:john.p.ryan@wisc.edu">Email</a></p>
-<p><a href="https://github.com/john-p-ryan">GitHub</a></p>
-<hr>
-</section>
+<div class="g-col-12 g-col-md-4 sidebar-col">
+<div class="profile">
+<p><img src="./files/headshot_square.jpg" class="headshot" alt="Headshot of John P. Ryan"></p>
+<p class="profile-name">
+John P. Ryan
+</p>
+<p class="profile-role">
+PhD Candidate in Economics<br>University of Wisconsin–Madison
+</p>
+<ul class="profile-links">
+<li>
+<a href="mailto:john.p.ryan@wisc.edu"><i class="bi bi-envelope"></i>john.p.ryan@wisc.edu</a>
+</li>
+<li>
+<a href="https://github.com/john-p-ryan"><i class="bi bi-github"></i>john-p-ryan</a>
+</li>
+<li>
+<a href="./files/CV.pdf"><i class="bi bi-file-earmark-text"></i>Curriculum vitae</a>
+</li>
+</ul>
 </div>
-<div class="g-col-12 g-col-sm-8 g-start-sm-5 main-content">
-<section id="phd-computational-economics" class="level2">
-<h2 class="anchored" data-anchor-id="phd-computational-economics">PhD Computational Economics</h2>
-<section id="econ-880---fall-2024-fall-2025" class="level4">
-<h4 class="anchored" data-anchor-id="econ-880---fall-2024-fall-2025">Econ 880 - Fall 2024, Fall 2025</h4>
-<p><strong>Guest lecturer, grader for Professor Dean Corbae</strong></p>
+</div>
+<div class="g-col-12 g-col-md-8 main-content">
+<section id="instructor" class="level2">
+<h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
+<div class="course">
+<p class="course-title">
+PhD Computational Economics Bootcamp
+</p>
+<p class="course-meta">
+<span class="role">Instructor</span><span class="sep">·</span>Summer 2026
+</p>
+<p>A four-week introduction to computational methods for economics, taught in Julia: numerical methods, parallelization and dynamic programming, and distributions, equilibrium, and estimation.</p>
+<p><a href="https://uw-econ-bootcamp-2026.github.io/">Course website →</a></p>
+</div>
 </section>
-<section id="materials" class="level4">
-<h4 class="anchored" data-anchor-id="materials">Materials:</h4>
+<section id="guest-lecturer" class="level2">
+<h2 class="anchored" data-anchor-id="guest-lecturer">Guest lecturer</h2>
+<div class="course">
+<p class="course-title">
+PhD Computational Economics
+</p>
+<p class="course-meta">
+<span class="role">Guest lecturer &amp; grader</span><span class="sep">·</span>Econ 880<span class="sep">·</span>Fall 2024, Fall 2025<span class="sep">·</span>Prof.&nbsp;Dean Corbae
+</p>
+<p class="materials-label">
+Lecture materials
+</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -155,31 +376,35 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Parallelization in Julia</td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ880/parallelization.pdf">Slides</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ880/parallel_codealong.jl">Code</a></td>
+<td style="text-align: left;"><a href="./files/Econ880/parallelization.pdf">Slides</a></td>
+<td style="text-align: left;"><a href="./files/Econ880/parallel_codealong.jl">Code</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Algorithms for HA Models</td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ880/HH_methods_slides.pdf">Slides</a></td>
+<td style="text-align: left;">Algorithms for heterogeneous-agent models</td>
+<td style="text-align: left;"><a href="./files/Econ880/HH_methods_slides.pdf">Slides</a></td>
 <td style="text-align: left;"><a href="https://github.com/john-p-ryan/QuantMacro">Code</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Algorithms for HA with Aggregate Uncertainty</td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ880/Agg_comparison.pdf">Slides</a></td>
+<td style="text-align: left;">Heterogeneous agents with aggregate uncertainty</td>
+<td style="text-align: left;"><a href="./files/Econ880/Agg_comparison.pdf">Slides</a></td>
 <td style="text-align: left;"><a href="https://github.com/john-p-ryan/QuantMacro">Code</a></td>
 </tr>
 </tbody>
 </table>
+</div>
 </section>
-</section>
-<section id="masters-macroeconomics" class="level2">
-<h2 class="anchored" data-anchor-id="masters-macroeconomics">Masters Macroeconomics</h2>
-<section id="econ-702---spring-2024" class="level4">
-<h4 class="anchored" data-anchor-id="econ-702---spring-2024">Econ 702 - Spring 2024</h4>
-<p><strong>TA for Professor Rishabh Kirpalani</strong></p>
-</section>
-<section id="discussion-materials" class="level4">
-<h4 class="anchored" data-anchor-id="discussion-materials">Discussion Materials:</h4>
+<section id="teaching-assistant" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-assistant">Teaching assistant</h2>
+<div class="course">
+<p class="course-title">
+Masters Macroeconomics
+</p>
+<p class="course-meta">
+<span class="role">TA</span><span class="sep">·</span>Econ 702<span class="sep">·</span>Spring 2024<span class="sep">·</span>Prof.&nbsp;Rishabh Kirpalani
+</p>
+<p class="materials-label">
+Discussion materials
+</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -189,59 +414,61 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout1.pdf">Handout 1</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout1_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout1.pdf">Handout 1</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout1_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout2.pdf">Handout 2</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout2_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout2.pdf">Handout 2</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout2_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout3.pdf">Handout 3</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout3_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout3.pdf">Handout 3</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout3_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout4.pdf">Handout 4</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout4_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout4.pdf">Handout 4</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout4_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout6.pdf">Handout 6</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout6_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout6.pdf">Handout 6</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout6_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout7.pdf">Handout 7</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout7_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout7.pdf">Handout 7</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout7_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout8.pdf">Handout 8</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout8_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout8.pdf">Handout 8</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout8_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout10.pdf">Handout 10</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout10_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout10.pdf">Handout 10</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout10_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout11.pdf">Handout 11</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout11_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout11.pdf">Handout 11</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout11_Solution.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout12.pdf">Handout 12</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ702/702_Handout12_Solution.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout12.pdf">Handout 12</a></td>
+<td style="text-align: left;"><a href="./files/Econ702/702_Handout12_Solution.pdf">Solution</a></td>
 </tr>
 </tbody>
 </table>
-<p><em>See Canvas for exam and homework materials.</em></p>
-<hr>
-</section>
-</section>
-<section id="intermediate-microeconomics" class="level2">
-<h2 class="anchored" data-anchor-id="intermediate-microeconomics">Intermediate Microeconomics</h2>
-<section id="econ-301---fall-2023" class="level4">
-<h4 class="anchored" data-anchor-id="econ-301---fall-2023">Econ 301 - Fall 2023</h4>
-<p><strong>TA for Dr.&nbsp;Fran Flanagan</strong></p>
-</section>
-<section id="discussion-materials-1" class="level4">
-<h4 class="anchored" data-anchor-id="discussion-materials-1">Discussion materials:</h4>
+<p class="note">
+Exam and homework materials are on Canvas.
+</p>
+</div>
+<div class="course">
+<p class="course-title">
+Intermediate Microeconomics
+</p>
+<p class="course-meta">
+<span class="role">TA</span><span class="sep">·</span>Econ 301<span class="sep">·</span>Fall 2023<span class="sep">·</span>Dr.&nbsp;Fran Flanagan
+</p>
+<p class="materials-label">
+Discussion materials
+</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -251,58 +478,62 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_9-15.pdf">Handout 9-15-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/9_15.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_9-15.pdf">Sep 15, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/9_15.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_9-22.pdf">Handout 9-22-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/9-22.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_9-22.pdf">Sep 22, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/9-22.pdf">Solution</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_9-29.pdf">Handout 9-29-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/9-29.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_9-29.pdf">Sep 29, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/9-29.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_10-13.pdf">Handout 10-13-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/10-13.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_10-13.pdf">Oct 13, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/10-13.pdf">Solution</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_10-20.pdf">Handout 10-20-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/10-20.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_10-20.pdf">Oct 20, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/10-20.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_10-27.pdf">Handout 10-27-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/10-27.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_10-27.pdf">Oct 27, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/10-27.pdf">Solution</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_11-3.pdf">Handout 11-3-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/11-3.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_11-3.pdf">Nov 3, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/11-3.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_11-10.pdf">Handout 11-10-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/11-10.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_11-10.pdf">Nov 10, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/11-10.pdf">Solution</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_12_1.pdf">Handout 12-1-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/12-1.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_12_1.pdf">Dec 1, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/12-1.pdf">Solution</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/301handout_12_8.pdf">Handout 12-8-23</a></td>
-<td style="text-align: left;"><a href="https://john-p-ryan.github.io/files/Econ301/12-8.pdf">Solution</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/301handout_12_8.pdf">Dec 8, 2023</a></td>
+<td style="text-align: left;"><a href="./files/Econ301/12-8.pdf">Solution</a></td>
 </tr>
 </tbody>
 </table>
-<p><em>See Canvas for exam and homework materials.</em></p>
-<hr>
-</section>
-</section>
-<section id="introduction-to-economics" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-to-economics">Introduction to Economics</h2>
-<section id="econ-101---fall-2022" class="level4">
-<h4 class="anchored" data-anchor-id="econ-101---fall-2022">Econ 101 - Fall 2022</h4>
-<p><strong>TA for Dr.&nbsp;Greg Pac</strong></p>
-<p>See Canvas for teaching materials.</p>
-</section>
+<p class="note">
+Exam and homework materials are on Canvas.
+</p>
+</div>
+<div class="course">
+<p class="course-title">
+Introduction to Economics
+</p>
+<p class="course-meta">
+<span class="role">TA</span><span class="sep">·</span>Econ 101<span class="sep">·</span>Fall 2022<span class="sep">·</span>Dr.&nbsp;Greg Pac
+</p>
+<p class="note">
+Teaching materials are on Canvas.
+</p>
+</div>
 </section>
 </div>
 </div>
@@ -312,6 +543,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -397,6 +641,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

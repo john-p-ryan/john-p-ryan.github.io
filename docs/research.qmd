@@ -1,41 +1,75 @@
 ---
 title: ""
+pagetitle: "Research"
 ---
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-sm-4}
+::: {.g-col-12 .g-col-md-4 .sidebar-col}
 {{< include _profile.qmd >}}
 :::
 
-::: {.g-col-12 .g-col-sm-8 .g-start-sm-5 .main-content}
+::: {.g-col-12 .g-col-md-8 .main-content}
 
 ## Publications
 
-**["Debias Random Forest Regression Predictors"](https://www.researchgate.net/publication/372239538_Debias_random_forest_regression_predictors)**, 2023   
-With Lihua Chen and Prabhashi Withana Gamage   
-*Published in Journal of Statistical Research*
+::: {.paper}
+<p class="paper-title"><a href="https://www.researchgate.net/publication/372239538_Debias_random_forest_regression_predictors">Debias Random Forest Regression Predictors</a></p>
+<p class="paper-meta">with Lihua Chen and Prabhashi Withana Gamage</p>
+<p class="paper-meta"><em>Journal of Statistical Research</em>, 2023</p>
+<p class="paper-note">Presented at MathFest 2021 (presenting author)</p>
+<div class="paper-links">
+<a href="https://www.researchgate.net/publication/372239538_Debias_random_forest_regression_predictors">Paper</a>
+<a href="https://drive.google.com/file/d/1l_N-IQXZizEg0v_7TLgmmJkye2bsWx_E/view?usp=sharing">Slides</a>
+</div>
+:::
 
+## Working papers
 
-## Presentations
+::: {.paper}
+<p class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7187758">Inferring the Political Weights of Presidential Candidates from Their Tax Policy Proposals</a></p>
+<p class="paper-meta">with Jason DeBacker</p>
+<p class="paper-note">Presented at Discover USC 2022 — poster session honorable mention</p>
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7187758">Draft</a>
+<a href="https://github.com/PSLmodels/InverseOptimalTax/tree/main">Code</a>
+</div>
+:::
 
-**"Debias Random Forest Regression Predictors"**, 2021   
-Math Fest 2021, presenting author   
-[See slides](https://drive.google.com/file/d/1l_N-IQXZizEg0v_7TLgmmJkye2bsWx_E/view?usp=sharing)
+## Policy papers
 
-**"Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals"**, 2022  
-Discover USC 2022, poster session honorable mention
+::: {.paper}
+<p class="paper-title"><a href="https://crowe.wisc.edu/wp-content/uploads/sites/633/2026/07/mainRyan.pdf">Zoning Regulations, Housing Affordability, and Lifecycle Inequality</a></p>
+<p class="paper-meta"><em>CROWE Graduate Scholar Series</em> #3</p>
+<div class="paper-links">
+<a href="https://crowe.wisc.edu/wp-content/uploads/sites/633/2026/07/mainRyan.pdf">Paper</a>
+</div>
+:::
 
+## Work in progress
+
+::: {.paper .in-progress}
+<p class="paper-title">The Costs of High-Skill International Labor in the United States</p>
+<p class="paper-meta">with Rob Remuszka and Famy Xia</p>
+:::
+
+::: {.paper .in-progress}
+<p class="paper-title">Taxing Capital Gains at Death: The Economics of Stepped-Up Basis</p>
+:::
+
+::: {.paper .in-progress}
+<p class="paper-title">Child Heterogeneity and Optimal Estate-Tax Progressivity</p>
+:::
 
 ## Other projects
 
-**"Inferring the Preferences of Presidential Candidates from Their Tax Policy Proposals"**, 2022   
-with Jason DeBacker (Work in progress)   
-[See repo](https://github.com/PSLmodels/InverseOptimalTax/tree/main)
-
-**"Mathematical Foundations of Data Science, Optimal Transport"**, 2022   
-NSF REU project under Wuchen Li, UofSC Math   
-[See slides](https://drive.google.com/file/d/1d0LliYPvpbVtJaj47LBw7l_bA67IcCOh/view?usp=sharing)
+::: {.paper .in-progress}
+<p class="paper-title">Mathematical Foundations of Data Science: Optimal Transport</p>
+<p class="paper-meta">NSF REU project under Wuchen Li, University of South Carolina Mathematics</p>
+<div class="paper-links">
+<a href="https://drive.google.com/file/d/1d0LliYPvpbVtJaj47LBw7l_bA67IcCOh/view?usp=sharing">Slides</a>
+</div>
+:::
 
 :::
 

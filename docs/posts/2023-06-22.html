@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1e37a73daf2ede45c2576237328a0d8d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7343e058aebcd5edb4aab54744319be1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="I passed my prelims! – John P. Ryan">
+<meta property="og:description" content="John P. Ryan — Economics PhD student at the University of Wisconsin–Madison. Public finance, computational methods, and macroeconomics.">
+<meta property="og:site_name" content="John P. Ryan">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -86,7 +88,6 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">John P. Ryan</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -107,6 +108,18 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../files/CV.pdf"> 
 <span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/john-p-ryan"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:john.p.ryan@wisc.edu"> <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -154,13 +167,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<hr>
 <blockquote class="blockquote">
 <p>“It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way” - Charles Dickens, A Tale of Two Cities</p>
 </blockquote>
 <p>This quote encapsulates my experience during my first year in the econ PhD at UW-Madison. It was a tough journey, but it has all paid off. That is because I passed my preliminary exams! There has been a lot of anxiety leading up to this moment, but I have learned so much in the past year.</p>
 <p>Since I passed, I have about 2 months of time to rest, and work on a few projects, one of which has been building this website. I plan on learning Julia, getting better at Git / Github, sketching out a research idea or two, polish my senior thesis, and maybe contribute to some other projects.</p>
-<p><a href="https://john-p-ryan.github.io/">back to home</a></p>
+<div class="post-nav">
+<p><a href="../index.html">← Back to home</a></p>
+</div>
 
 
 
@@ -252,6 +266,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

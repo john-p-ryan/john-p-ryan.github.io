@@ -1,0 +1,28 @@
+/*-- scss:defaults --*/
+
+// Dark palette: layered on top of custom.scss (see theme: dark in _quarto.yml)
+$ink:      #e4e4e0;   // body text
+$ink-soft: #9ba3ad;   // secondary text
+$paper:    #16181b;   // page background
+$rule:     #2d3137;   // hairlines
+$accent:   #e0808f;   // cardinal, lifted for contrast on dark
+$accent-2: #f1aab5;   // hover
+$garnet:   #e0525f;   // Gamecocks (brighter so it reads on dark)
+
+$body-bg:          $paper;
+$body-color:       $ink;
+$link-color:       $accent;
+$link-hover-color: $accent-2;
+$border-color:     $rule;
+$navbar-bg:        $paper;
+$navbar-fg:        $ink-soft;
+$navbar-hl:        $accent;
+$footer-bg:        $paper;
+$footer-fg:        $ink-soft;
+
+$table-color:      $ink;
+$table-bg:         transparent;
+
+/*-- scss:rules --*/
+
+.headshot { filter: brightness(.94); }
