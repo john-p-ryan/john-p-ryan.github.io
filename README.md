@@ -1,7 +1,26 @@
 # john-p-ryan.github.io
 
-This repository contains the code for my personal website, linked [here](https://john-p-ryan.github.io).
+Source for my personal website, live at [john-p-ryan.github.io](https://john-p-ryan.github.io).
 
-The website is built with Rmarkdown. Most files are custom formatted, following the example of Alex von Hafften (GitHub: vonhafften), and built to look like the Jekyll minimal theme.
+The site is built with [Quarto](https://quarto.org) and served from the `docs/` folder via GitHub Pages.
 
-In order to fix the titles of pages in the browser, some low level changes of the html files were necessary since no title is provided in Rmarkdown. This is to fix the error of titles appearing as "file.knit" in the browser. 
+## Layout
+
+- `docs/_quarto.yml` — site config (navbar, footer, theme)
+- `docs/custom.scss` — theme overrides on top of Bootswatch *cosmo* (fonts, colors, sidebar, paper/course entries)
+- `docs/_profile.qmd` — sidebar profile card, included on every top-level page
+- `docs/index.qmd`, `docs/research.qmd`, `docs/teaching.qmd` — the pages
+- `docs/posts/` — news posts (shared settings in `posts/_metadata.yml`)
+- `docs/files/` — CV, headshot, and course materials
+
+## Building
+
+```sh
+cd docs
+quarto render     # writes HTML in place (output-dir is ".")
+quarto preview    # live preview while editing
+```
+
+Commit the rendered HTML alongside the source so GitHub Pages picks it up.
+
+The `alt/` folder holds the previous Rmarkdown version of the site and is not built.

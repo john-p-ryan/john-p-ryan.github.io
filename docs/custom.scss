@@ -1,0 +1,336 @@
+/*-- scss:defaults --*/
+
+// Fonts -----------------------------------------------------------------
+$web-font-path: "https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,500&display=swap";
+
+$font-family-sans-serif: "Source Sans 3", "Source Sans Pro", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-weight:   600;
+$font-size-base:         1.05rem;
+$line-height-base:       1.6;
+
+// Palette ---------------------------------------------------------------
+$ink:      #1f2328 !default;   // body text
+$ink-soft: #5b6470 !default;   // secondary text
+$paper:    #fdfdfb !default;   // page background
+$rule:     #e3e5e8 !default;   // hairlines
+$accent:   #8c1d2e !default;   // muted cardinal (links, active nav)
+$accent-2: #5c1220 !default;   // hover
+$garnet:   #73000a !default;   // Gamecocks
+
+$body-bg:      $paper;
+$body-color:   $ink;
+$link-color:   $accent;
+$link-decoration: none;
+$link-hover-color: $accent-2;
+$border-color: $rule;
+
+$navbar-bg:               $paper;
+$navbar-fg:               $ink-soft;
+$navbar-hl:               $accent;
+$footer-bg:               $paper;
+$footer-fg:               $ink-soft;
+
+$table-cell-padding-y: .45rem;
+$table-cell-padding-x: .6rem;
+
+/*-- scss:rules --*/
+
+// Base ------------------------------------------------------------------
+a {
+  text-decoration-color: rgba($accent, .35);
+  text-underline-offset: .15em;
+  transition: color .12s ease;
+}
+a:hover { text-decoration-color: $accent-2; }
+
+// Animated underline: a faint resting line, a solid one that grows in on hover
+main p a, main li a, main td a {
+  --underline-rest: #{rgba($accent, .35)};
+  text-decoration: none;
+  background-image:
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(var(--underline-rest), var(--underline-rest));
+  background-size: 0% 1px, 100% 1px;
+  background-position: 0 100%, 0 100%;
+  background-repeat: no-repeat;
+  padding-bottom: .05em;
+  transition: color .12s ease, background-size .28s ease;
+}
+main p a:hover, main li a:hover, main td a:hover {
+  background-size: 100% 1px, 100% 1px;
+}
+
+h1, h2, h3, h4 { color: $ink; letter-spacing: -.005em; }
+
+// Section headings: small serif heading with a hairline beneath
+.main-content h2 {
+  font-size: 1.55rem;
+  margin-top: 2.4rem;
+  margin-bottom: 1rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid $rule;
+}
+.main-content > h2:first-child { margin-top: 0; }
+.main-content h3 { font-size: 1.2rem; margin-top: 1.6rem; }
+
+.muted { color: $ink-soft; }
+
+hr { border-top: 1px solid $rule; opacity: 1; }
+
+// Navbar ----------------------------------------------------------------
+.navbar {
+  border-bottom: 1px solid $rule;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
+.navbar .navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: $ink;
+}
+.navbar .nav-link {
+  font-weight: 600;
+  font-size: .95rem;
+  letter-spacing: .01em;
+  padding-bottom: .2rem;
+  border-bottom: 2px solid transparent;
+}
+.navbar .nav-link.active {
+  color: $accent !important;
+  border-bottom-color: $accent;
+}
+.navbar .nav-link:hover { color: $accent; }
+.navbar .quarto-navbar-tools .quarto-navigation-tool { color: $ink-soft; }
+.navbar .quarto-navbar-tools .quarto-navigation-tool:hover { color: $accent; }
+
+// Page frame ------------------------------------------------------------
+#quarto-content { padding-top: 1.5rem; }
+main.content { padding-bottom: 3rem; }
+
+// Sidebar profile card --------------------------------------------------
+.profile {
+  text-align: center;
+  padding-right: 1rem;
+
+  .headshot {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 0 4px $paper, 0 0 0 5px $rule;
+    margin: .25rem auto 1.1rem;
+    display: block;
+  }
+  .profile-name {
+    font-family: $headings-font-family;
+    font-weight: 700;
+    font-size: 1.35rem;
+    margin: 0 0 .25rem;
+    line-height: 1.2;
+  }
+  .profile-role {
+    color: $ink-soft;
+    font-size: .95rem;
+    line-height: 1.4;
+    margin: 0 0 1.1rem;
+  }
+  .profile-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li { margin: .3rem 0; }
+    a {
+      --underline-rest: transparent;
+      color: $ink;
+      font-size: .95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    a:hover { color: $accent; }
+    .bi { color: $ink-soft; font-size: 1rem; }
+    a:hover .bi { color: $accent; }
+  }
+}
+
+.main-content {
+  border-left: 1px solid $rule;
+  padding-left: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  .sidebar-col { position: sticky; top: 5.5rem; align-self: start; }
+}
+
+@media (max-width: 767.98px) {
+  .main-content { border-left: none; padding-left: 0; margin-top: 1.5rem; }
+  .profile { padding-right: 0; }
+}
+
+
+// Research entries ------------------------------------------------------
+.paper {
+  margin-bottom: 1.6rem;
+  padding-left: 1rem;
+  border-left: 3px solid rgba($accent, .18);
+  transition: border-color .2s ease, transform .2s ease;
+
+  &:hover { border-left-color: $accent; transform: translateX(3px); }
+
+  .paper-title {
+    font-family: $headings-font-family;
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 1.35;
+    margin: 0 0 .2rem;
+    a { --underline-rest: transparent; color: $ink; }
+    a:hover { color: $accent; }
+  }
+  .paper-meta {
+    color: $ink-soft;
+    font-size: .95rem;
+    margin: 0 0 .15rem;
+    em { font-style: italic; }
+  }
+  .paper-note {
+    color: $ink-soft;
+    font-size: .9rem;
+    margin: .1rem 0 0;
+  }
+  .paper-links {
+    margin-top: .45rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem;
+    a {
+      font-size: .8rem;
+      font-weight: 600;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      color: $accent;
+      border: 1px solid rgba($accent, .35);
+      border-radius: 999px;
+      padding: .12rem .6rem;
+      text-decoration: none;
+    }
+    a:hover { background: rgba($accent, .07); border-color: $accent; }
+  }
+}
+.paper.in-progress { border-left-color: $rule; }
+.paper.in-progress:hover { border-left-color: rgba($accent, .45); }
+
+// Teaching entries ------------------------------------------------------
+.course {
+  margin-bottom: 2.4rem;
+
+  .course-title {
+    font-family: $headings-font-family;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0 0 .2rem;
+    line-height: 1.3;
+  }
+  .course-meta {
+    color: $ink-soft;
+    font-size: .92rem;
+    margin: 0 0 .7rem;
+    .sep { margin: 0 .4rem; opacity: .5; }
+    .role { color: $ink; font-weight: 600; }
+  }
+  p { margin-bottom: .6rem; }
+  .materials-label {
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: $ink-soft;
+    margin: .9rem 0 .35rem;
+  }
+  .note { color: $ink-soft; font-size: .9rem; font-style: italic; margin-top: .5rem; }
+}
+
+// Tables ----------------------------------------------------------------
+.main-content table {
+  width: 100%;
+  font-size: .97rem;
+  margin-bottom: .5rem;
+  thead th {
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: $ink-soft;
+    border-bottom: 1px solid $ink-soft;
+    border-top: none;
+  }
+  tbody td { border-bottom: 1px solid $rule; vertical-align: middle; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: rgba($accent, .03); }
+}
+
+// Home-page post listing ------------------------------------------------
+#listing-landing-posts {
+  table { margin-bottom: 0; }
+  thead { display: none; }
+  td { padding-top: .55rem; padding-bottom: .55rem; }
+  td:first-child { white-space: nowrap; width: 7.5rem; padding-left: 0; }
+  td:last-child { padding-right: 0; }
+  .listing-date { color: $ink-soft; font-variant-numeric: tabular-nums; font-size: .95rem; }
+  .listing-title { --underline-rest: transparent; color: $ink; font-weight: 600; }
+  .listing-title:hover { color: $accent; }
+}
+
+// Blog post pages -------------------------------------------------------
+.quarto-title-block .title {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.quarto-title-meta-heading {
+  font-size: .75rem !important;
+  letter-spacing: .06em;
+  color: $ink-soft;
+}
+.quarto-title-meta-contents { color: $ink-soft; }
+blockquote {
+  border-left: 3px solid rgba($accent, .35);
+  padding-left: 1rem;
+  color: $ink-soft;
+  font-family: $headings-font-family;
+  font-size: 1.05rem;
+}
+.post-nav { margin-top: 2.5rem; font-size: .95rem; }
+
+// Footer ----------------------------------------------------------------
+.nav-footer {
+  border-top: 1px solid $rule;
+  font-size: .9rem;
+  color: $ink-soft;
+  padding-top: 1.25rem;
+  padding-bottom: 1.5rem;
+  a { color: $ink-soft; text-decoration: underline; text-decoration-color: rgba($ink-soft, .4); }
+  a:hover { color: $accent; }
+}
+
+// Easter egg ------------------------------------------------------------
+.gamecocks {
+  cursor: default;
+  transition: color .2s ease;
+  &::after {
+    content: "\1F413";          // rooster
+    display: inline-block;
+    margin-left: .2em;
+    opacity: 0;
+    transform: translateY(.3em) rotate(-15deg);
+    transition: opacity .2s ease, transform .3s cubic-bezier(.34, 1.56, .64, 1);
+  }
+  &:hover { color: $garnet; }
+  &:hover::after { opacity: 1; transform: translateY(0) rotate(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .paper, .gamecocks::after, main a { transition: none !important; }
+  .paper:hover { transform: none; }
+}

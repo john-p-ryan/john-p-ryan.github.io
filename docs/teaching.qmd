@@ -1,77 +1,95 @@
 ---
 title: ""
+pagetitle: "Teaching"
 ---
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-sm-4}
+::: {.g-col-12 .g-col-md-4 .sidebar-col}
 {{< include _profile.qmd >}}
 :::
 
-::: {.g-col-12 .g-col-sm-8 .g-start-sm-5 .main-content}
+::: {.g-col-12 .g-col-md-8 .main-content}
 
-## PhD Computational Economics
-#### Econ 880 - Fall 2024, Fall 2025
-**Guest lecturer, grader for Professor Dean Corbae**
+## Instructor
 
-#### Materials:
+::: {.course}
+<p class="course-title">PhD Computational Economics Bootcamp</p>
+<p class="course-meta"><span class="role">Instructor</span><span class="sep">·</span>Summer 2026</p>
+
+A four-week introduction to computational methods for economics, taught in Julia: numerical methods, parallelization and dynamic programming, and distributions, equilibrium, and estimation.
+
+[Course website →](https://uw-econ-bootcamp-2026.github.io/)
+:::
+
+## Guest lecturer
+
+::: {.course}
+<p class="course-title">PhD Computational Economics</p>
+<p class="course-meta"><span class="role">Guest lecturer &amp; grader</span><span class="sep">·</span>Econ 880<span class="sep">·</span>Fall 2024, Fall 2025<span class="sep">·</span>Prof. Dean Corbae</p>
+
+<p class="materials-label">Lecture materials</p>
+
 | Topic | Slides | Code |
 | :--- | :--- | :--- |
-| Parallelization in Julia | [Slides](https://john-p-ryan.github.io/files/Econ880/parallelization.pdf) | [Code](https://john-p-ryan.github.io/files/Econ880/parallel_codealong.jl) |
-| Algorithms for HA Models | [Slides](https://john-p-ryan.github.io/files/Econ880/HH_methods_slides.pdf) | [Code](https://github.com/john-p-ryan/QuantMacro) |
-| Algorithms for HA with Aggregate Uncertainty | [Slides](https://john-p-ryan.github.io/files/Econ880/Agg_comparison.pdf) | [Code](https://github.com/john-p-ryan/QuantMacro) |
+| Parallelization in Julia | [Slides](/files/Econ880/parallelization.pdf) | [Code](/files/Econ880/parallel_codealong.jl) |
+| Algorithms for heterogeneous-agent models | [Slides](/files/Econ880/HH_methods_slides.pdf) | [Code](https://github.com/john-p-ryan/QuantMacro) |
+| Heterogeneous agents with aggregate uncertainty | [Slides](/files/Econ880/Agg_comparison.pdf) | [Code](https://github.com/john-p-ryan/QuantMacro) |
 
+:::
 
+## Teaching assistant
 
-## Masters Macroeconomics 
-#### Econ 702 - Spring 2024
-**TA for Professor Rishabh Kirpalani**
+::: {.course}
+<p class="course-title">Masters Macroeconomics</p>
+<p class="course-meta"><span class="role">TA</span><span class="sep">·</span>Econ 702<span class="sep">·</span>Spring 2024<span class="sep">·</span>Prof. Rishabh Kirpalani</p>
 
-#### Discussion Materials:
+<p class="materials-label">Discussion materials</p>
+
 | Handout | Solution |
 | :--- | :--- |
-| [Handout 1](https://john-p-ryan.github.io/files/Econ702/702_Handout1.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout1_Solution.pdf) |
-| [Handout 2](https://john-p-ryan.github.io/files/Econ702/702_Handout2.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout2_Solution.pdf) |
-| [Handout 3](https://john-p-ryan.github.io/files/Econ702/702_Handout3.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout3_Solution.pdf) |
-| [Handout 4](https://john-p-ryan.github.io/files/Econ702/702_Handout4.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout4_Solution.pdf) |
-| [Handout 6](https://john-p-ryan.github.io/files/Econ702/702_Handout6.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout6_Solution.pdf) |
-| [Handout 7](https://john-p-ryan.github.io/files/Econ702/702_Handout7.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout7_Solution.pdf) |
-| [Handout 8](https://john-p-ryan.github.io/files/Econ702/702_Handout8.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout8_Solution.pdf) |
-| [Handout 10](https://john-p-ryan.github.io/files/Econ702/702_Handout10.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout10_Solution.pdf) |
-| [Handout 11](https://john-p-ryan.github.io/files/Econ702/702_Handout11.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout11_Solution.pdf) |
-| [Handout 12](https://john-p-ryan.github.io/files/Econ702/702_Handout12.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ702/702_Handout12_Solution.pdf) |
+| [Handout 1](/files/Econ702/702_Handout1.pdf) | [Solution](/files/Econ702/702_Handout1_Solution.pdf) |
+| [Handout 2](/files/Econ702/702_Handout2.pdf) | [Solution](/files/Econ702/702_Handout2_Solution.pdf) |
+| [Handout 3](/files/Econ702/702_Handout3.pdf) | [Solution](/files/Econ702/702_Handout3_Solution.pdf) |
+| [Handout 4](/files/Econ702/702_Handout4.pdf) | [Solution](/files/Econ702/702_Handout4_Solution.pdf) |
+| [Handout 6](/files/Econ702/702_Handout6.pdf) | [Solution](/files/Econ702/702_Handout6_Solution.pdf) |
+| [Handout 7](/files/Econ702/702_Handout7.pdf) | [Solution](/files/Econ702/702_Handout7_Solution.pdf) |
+| [Handout 8](/files/Econ702/702_Handout8.pdf) | [Solution](/files/Econ702/702_Handout8_Solution.pdf) |
+| [Handout 10](/files/Econ702/702_Handout10.pdf) | [Solution](/files/Econ702/702_Handout10_Solution.pdf) |
+| [Handout 11](/files/Econ702/702_Handout11.pdf) | [Solution](/files/Econ702/702_Handout11_Solution.pdf) |
+| [Handout 12](/files/Econ702/702_Handout12.pdf) | [Solution](/files/Econ702/702_Handout12_Solution.pdf) |
 
-*See Canvas for exam and homework materials.*
+<p class="note">Exam and homework materials are on Canvas.</p>
+:::
 
----
+::: {.course}
+<p class="course-title">Intermediate Microeconomics</p>
+<p class="course-meta"><span class="role">TA</span><span class="sep">·</span>Econ 301<span class="sep">·</span>Fall 2023<span class="sep">·</span>Dr. Fran Flanagan</p>
 
-## Intermediate Microeconomics
-#### Econ 301 - Fall 2023
-**TA for Dr. Fran Flanagan**
+<p class="materials-label">Discussion materials</p>
 
-#### Discussion materials:
 | Handout | Solution |
 | :--- | :--- |
-| [Handout 9-15-23](https://john-p-ryan.github.io/files/Econ301/301handout_9-15.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/9_15.pdf) |
-| [Handout 9-22-23](https://john-p-ryan.github.io/files/Econ301/301handout_9-22.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/9-22.pdf) |
-| [Handout 9-29-23](https://john-p-ryan.github.io/files/Econ301/301handout_9-29.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/9-29.pdf) |
-| [Handout 10-13-23](https://john-p-ryan.github.io/files/Econ301/301handout_10-13.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/10-13.pdf) |
-| [Handout 10-20-23](https://john-p-ryan.github.io/files/Econ301/301handout_10-20.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/10-20.pdf) |
-| [Handout 10-27-23](https://john-p-ryan.github.io/files/Econ301/301handout_10-27.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/10-27.pdf) |
-| [Handout 11-3-23](https://john-p-ryan.github.io/files/Econ301/301handout_11-3.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/11-3.pdf) |
-| [Handout 11-10-23](https://john-p-ryan.github.io/files/Econ301/301handout_11-10.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/11-10.pdf) |
-| [Handout 12-1-23](https://john-p-ryan.github.io/files/Econ301/301handout_12_1.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/12-1.pdf) |
-| [Handout 12-8-23](https://john-p-ryan.github.io/files/Econ301/301handout_12_8.pdf) | [Solution](https://john-p-ryan.github.io/files/Econ301/12-8.pdf) |
+| [Sep 15, 2023](/files/Econ301/301handout_9-15.pdf) | [Solution](/files/Econ301/9_15.pdf) |
+| [Sep 22, 2023](/files/Econ301/301handout_9-22.pdf) | [Solution](/files/Econ301/9-22.pdf) |
+| [Sep 29, 2023](/files/Econ301/301handout_9-29.pdf) | [Solution](/files/Econ301/9-29.pdf) |
+| [Oct 13, 2023](/files/Econ301/301handout_10-13.pdf) | [Solution](/files/Econ301/10-13.pdf) |
+| [Oct 20, 2023](/files/Econ301/301handout_10-20.pdf) | [Solution](/files/Econ301/10-20.pdf) |
+| [Oct 27, 2023](/files/Econ301/301handout_10-27.pdf) | [Solution](/files/Econ301/10-27.pdf) |
+| [Nov 3, 2023](/files/Econ301/301handout_11-3.pdf) | [Solution](/files/Econ301/11-3.pdf) |
+| [Nov 10, 2023](/files/Econ301/301handout_11-10.pdf) | [Solution](/files/Econ301/11-10.pdf) |
+| [Dec 1, 2023](/files/Econ301/301handout_12_1.pdf) | [Solution](/files/Econ301/12-1.pdf) |
+| [Dec 8, 2023](/files/Econ301/301handout_12_8.pdf) | [Solution](/files/Econ301/12-8.pdf) |
 
-*See Canvas for exam and homework materials.*
+<p class="note">Exam and homework materials are on Canvas.</p>
+:::
 
----
+::: {.course}
+<p class="course-title">Introduction to Economics</p>
+<p class="course-meta"><span class="role">TA</span><span class="sep">·</span>Econ 101<span class="sep">·</span>Fall 2022<span class="sep">·</span>Dr. Greg Pac</p>
 
-## Introduction to Economics
-#### Econ 101 - Fall 2022
-**TA for Dr. Greg Pac**
-
-See Canvas for teaching materials.
+<p class="note">Teaching materials are on Canvas.</p>
+:::
 
 :::
 

@@ -1,14 +1,12 @@
-![](/files/Headshot_2023.jpeg){width=240px}
+::: {.profile}
+<img src="/files/headshot_square.jpg" class="headshot" alt="Headshot of John P. Ryan">
 
-## John P. Ryan
+<p class="profile-name">John P. Ryan</p>
+<p class="profile-role">PhD Candidate in Economics<br>University of Wisconsin–Madison</p>
 
-Economics PhD student at University of Wisconsin - Madison
-
-
-[Email](mailto:john.p.ryan@wisc.edu)
-
-[GitHub](https://github.com/john-p-ryan)
-
-
-
----
+<ul class="profile-links">
+<li><a href="mailto:john.p.ryan@wisc.edu"><i class="bi bi-envelope"></i>john.p.ryan@wisc.edu</a></li>
+<li><a href="https://github.com/john-p-ryan"><i class="bi bi-github"></i>john-p-ryan</a></li>
+<li><a href="/files/CV.pdf"><i class="bi bi-file-earmark-text"></i>Curriculum vitae</a></li>
+</ul>
+:::
