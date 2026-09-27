@@ -105,6 +105,17 @@ hr { border-top: 1px solid $rule; opacity: 1; }
 .navbar .quarto-navbar-tools .quarto-navigation-tool { color: $ink-soft; }
 .navbar .quarto-navbar-tools .quarto-navigation-tool:hover { color: $accent; }
 
+// Desktop: pull the page links (navbar `left:`) into the middle of the bar
+@media (min-width: 992px) {
+  .navbar .navbar-collapse > .navbar-nav:first-child {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1.25rem;
+    .nav-link { font-size: 1.1rem; }
+  }
+}
+
 // Page frame ------------------------------------------------------------
 #quarto-content { padding-top: 1.5rem; }
 main.content { padding-bottom: 3rem; }
