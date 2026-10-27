@@ -29,6 +29,7 @@ pagetitle: "Research"
 ::: {.paper}
 <p class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7187758">Inferring the Political Weights of Presidential Candidates from Their Tax Policy Proposals</a></p>
 <p class="paper-meta">with Jason DeBacker</p>
+<p class="paper-meta">Revise &amp; Resubmit, <em>National Tax Journal</em></p>
 <p class="paper-note">Presented at Discover USC 2022 — poster session honorable mention</p>
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7187758">Draft</a>
